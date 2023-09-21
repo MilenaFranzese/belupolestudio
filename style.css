@@ -1,5 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;1,400&family=Gloock&family=Inclusive+Sans:ital@0;1&family=Mooli&family=Rubik:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+
+/* font-family: 'Cabin', sans-serif;
+font-family: 'Gloock', serif;
+font-family: 'Inclusive Sans', sans-serif;
+font-family: 'Mooli', sans-serif;
+font-family: 'Rubik', sans-serif; */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(39, 38, 38);
+}
+
+.nav-link{
+    color: rgb(195, 41, 201);
+    font-family: 'Mooli', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    text-shadow: 0 0 30 solid palevioletred;
+}
+
+.nav-item a:hover{
+    color: white;
+}
+
+/* .navbar-toggler-icon{
+    color: rgb(195, 41, 201);
+} */
+.carousel-inner img{
+    max-height: 600px;
+}
+
+.carousel-inner{
+    width: 100%;
 }
